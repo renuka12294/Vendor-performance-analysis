@@ -1,0 +1,17 @@
+# Ignore all CSV files inside the data folder
+data/*.csv
+
+# Keep these files
+!data/.gitkeep
+!data/README.md
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Power BI
+*.pbix.autorecover
